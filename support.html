@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SafeBudget Support</title>
+<meta name="description" content="Help with SafeBudget.">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1c1c1e;
+    --secondary: #6c6c70;
+    --accent: #e0457b;
+    --card: #f2f2f7;
+    --rule: #e5e5ea;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #000000;
+      --text: #f2f2f7;
+      --secondary: #98989f;
+      --accent: #ff6a9a;
+      --card: #1c1c1e;
+      --rule: #2c2c2e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 20px 64px; }
+  h1 { font-size: 34px; line-height: 1.15; margin: 0 0 6px; letter-spacing: -0.02em; }
+  .updated { color: var(--secondary); margin: 0 0 28px; font-size: 15px; }
+  .summary {
+    background: var(--card);
+    border-radius: 18px;
+    padding: 18px 22px;
+    margin: 0 0 36px;
+  }
+  .summary p { margin: 0 0 8px; font-weight: 600; }
+  .summary ul { margin: 0; padding-left: 20px; }
+  .summary li { margin: 4px 0; }
+  h2 {
+    font-size: 21px;
+    margin: 36px 0 8px;
+    padding-top: 28px;
+    border-top: 1px solid var(--rule);
+    letter-spacing: -0.01em;
+  }
+  p, li { color: var(--text); }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); }
+  footer { color: var(--secondary); font-size: 15px; margin-top: 44px; }
+</style>
+<style>
+  .hero { text-align: center; padding-top: 24px; }
+  .hero img { width: 112px; height: 112px; border-radius: 26px; box-shadow: 0 12px 32px rgba(224,69,123,0.28); }
+  .hero h1 { margin-top: 20px; }
+  .hero p { color: var(--secondary); font-size: 19px; margin: 6px 0 0; }
+  .links { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin: 32px 0 0; }
+  .links a {
+    background: var(--card); color: var(--text); text-decoration: none; font-weight: 600;
+    padding: 12px 22px; border-radius: 999px;
+  }
+  .contact { background: var(--card); border-radius: 18px; padding: 18px 22px; margin: 0 0 8px; }
+  .contact p { margin: 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Support</h1>
+  <p class="updated">SafeBudget for iPhone and iPad.</p>
+
+  <div class="contact">
+    <p>Questions, problems or ideas: <a href="mailto:gaudino.software@gmail.com">gaudino.software@gmail.com</a>.</p>
+  </div>
+
+  <h2>Restoring your subscription</h2>
+  <p>On a new iPhone or after reinstalling, tap <strong>Restore Purchases</strong> on the subscription screen, or in SafeBudget go to Settings, then Subscription. Use the same Apple Account you subscribed with.</p>
+
+  <h2>Cancelling or changing your plan</h2>
+  <p>In SafeBudget, go to Settings, then Subscription, then Manage Subscription. You can also open the Settings app, tap your name, then Subscriptions. For a refund, visit <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>, since Apple handles all payments.</p>
+
+  <h2>Logging Apple Pay automatically</h2>
+  <p>In SafeBudget, go to Settings, then Apple Pay Logging, and follow the steps to add the Shortcuts automation. If payments stop appearing after an update, open the automation in Shortcuts and add the SafeBudget Log Expense step again.</p>
+
+  <h2>Your budget on all your devices</h2>
+  <p>SafeBudget syncs through your own iCloud. Sign in to the same Apple Account on each device and make sure iCloud is on for SafeBudget. In SafeBudget, Settings, then Backup &amp; Sync shows whether syncing is working and lets you make a backup.</p>
+
+  <h2>Privacy</h2>
+  <p>Your budget stays on your devices and in your own iCloud. Read the full <a href="privacy.html">Privacy Policy</a>.</p>
+
+  <footer><a href="./">SafeBudget</a> &middot; <a href="privacy.html">Privacy</a></footer>
+</main>
+</body>
+</html>
